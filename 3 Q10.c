@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main()
 {
+            
+            //initializing
+            
+            
             float a,b ;
             int c;
             printf("enter two numbers\n");
@@ -8,7 +12,10 @@ int main()
             printf("enter choice \n");
             printf("1.) Addition \n 2.) Subtraction \n 3.) Multiply \n 4.) Divide \n");
 
+             //reading
             scanf("%d",&c);
+            
+            //switch
             switch (c)
             {case 1 : printf("sum is %f",a+b);
             break;
@@ -18,7 +25,7 @@ int main()
             break;
             case 4 : printf("division is %f",a/b);
             break;
-            default : printf("nikal, chal pehli fursat me nikal");
+            default : printf("nikal, chal pehli fursat me nikal");         //don't write like this , delete it
             }
-                        return 0;
+                        return 0;           //returning 0
 }
