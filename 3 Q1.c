@@ -6,6 +6,7 @@ int main()
     scanf("%d,%d",&c,&s);
 
     p=s-c;
+    //commenting for hacktoberfest
 
     if(p>0)
     {
